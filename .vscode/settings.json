@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/a60f8e95-cc45-4174-9f21-cef1b8f37411/resourceGroups/Spaceman-Studio/providers/Microsoft.Web/sites/nzShop",
+    "appService.deploySubpath": "build"
+}

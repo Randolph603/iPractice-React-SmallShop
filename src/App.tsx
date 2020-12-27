@@ -3,14 +3,14 @@ import HomePage from './Home/HomePage';
 import { useScript } from './hooks/useScript';
 
 export default function App() {
-
   useScript('assets/js/vendor.js');
   useScript('assets/js/main.js');
   return (
     <Router>
       <Switch>
         <Redirect from='/' to={'/home'} exact={true} />
-        <Route path='/home' component={HomePage} />
+        <Route exact path='/home' component={HomePage} />
+        <Route component={HomePage} />
       </Switch>
     </Router>
   );
